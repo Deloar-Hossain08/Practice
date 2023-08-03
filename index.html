@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid green;
+            border-collapse: collapse;
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body style="background-image: url(pic.jpg); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+    <h1 title="I am Deloar">I am HTML.</h1>
+    <hr style="width: 50px; text-align: center;">
+    <h2>This is heading 2.</h2>
+    <p>This is <del>delete</del> and this is <ins>inserted</ins></p>
+    <table style="width: 100%;">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>Deloar</td>
+            <td>Hossain</td>
+            <td rowspan="3">age-27</td>
+        </tr>
+        <tr>
+            <td>Asraful</td>
+            <td>Haque</td>
+            
+        </tr>
+        <tr>
+            <td>Shadik</td>
+            <td>Rahaman</td>
+            
+        </tr>
+        <tr>
+            <td>Shadik</td>
+            <td>Rahaman</td>
+        </tr>
+    </table>
+    <iframe src="pic.jpg" frameborder="0" title="Iframe" height="200" width="200" style="border: none;"></iframe>
+    <p id="demo">This is a paragraph.</p> 
+    <button onclick="f()">Click Me</button> <br> <br>
+    <button onclick="bulbon()">Bulb ON</button>
+    <img src="onbulb.jpg" alt="onbulb" id="bulb" style="width: 200px; height: 200px;">
+    <button onclick="bulboff()">Bulb OFF</button>
+    <script>
+        function f(){
+            document.getElementById('demo').innerHTML='Deloar Hossain.';
+        }
+        function bulbon(){
+            document.getElementById('bulb').src='onbulb.jpg';
+        }
+        function bulboff(){
+            document.getElementById('bulb').src='offbulb.jpg';
+        }
+    </script>
+</body>
+</html>

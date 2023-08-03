@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.halo p{
+    font-size: 4vw;
+    background-color: darkgrey;
+    padding: 15px;
+    text-align: center;
+}
+
+.link{
+    float: left;
+    width: 20%;
+}
+
+.link ul li{
+    font-size: 1.5vw;
+    padding: 1vw;
+    margin: 1vw;
+    width: 100%;
+}
+
+.link ul li a{
+    color: black;
+    background-color: darkgray;
+    padding: 0.8vw 6vw;
+}
+
+.mid{
+    float: left;
+    width: 60%;
+}
+.mid h1{
+    font-size: 3vw;
+    padding: 1vw;
+}
+
+.mid p{
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+.about{
+    float: left;
+    width: 20%;
+    background-color: darkgray;
+    margin: 1vw 0vw;
+}
+
+.about h1{
+    font-size: 3vw;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+.about p{
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+.footer{
+    float: left;
+    background-color: darkgray;
+    text-align: center;
+    margin-top: 2vw;
+    padding: 1vw;
+    width: 100%;
+}
+
+.footer p{
+    font-size: 1.5vw;
+}
